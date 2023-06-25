@@ -1,0 +1,380 @@
+/* shiggy the shigger */
+[class^="panels-3wFtMD"]::before {
+    content: "";
+    width: 47px;
+    height: 47px;
+    left: 185px;
+    margin-top: -47px;
+    position: absolute;
+    background-image: url('https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=48&name=shiggy%7E1&quality=lossless');
+}
+
+.container-q97qHp {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+img[src$="3aa41de486fa12454c3761e8e223442e.png"],img[src$="8a88d63823d8a71cd5e390baa45efa02.png"],img[src$="011940fd013da3f7fb926e4a1cd2e618.png"]{content:url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbD0iI2ZiYjg0OCIgZD0ibTIxLjU5MSA1LjMxOC03Ljg3IDUuMTY2YS45MTQuOTE0IDAgMCAwLS4zMTYuMzU0bC0xLjIgMi40MDVhLjIyNC4yMjQgMCAwIDEtLjQxIDBsLTEuMi0yLjQwNWEuOTE0LjkxNCAwIDAgMC0uMzE3LS4zNTRsLTcuODctNS4xNjZhLjIzMi4yMzIgMCAwIDAtLjM1NC4yOThsMy4yODkgNi4zOTdhLjIzNi4yMzYgMCAwIDEtLjE4LjMzNUgzLjE4NWEuMjMuMjMgMCAwIDAtLjEzNy40MTdsOC44MTQgNi4zMTVhLjI0My4yNDMgMCAwIDAgLjI3NCAwbDguODE0LTYuMzE1YS4yMy4yMyAwIDAgMC0uMTM3LS40MTdoLTEuOTc2YS4yMzcuMjM3IDAgMCAxLS4yMDYtLjMzNWwzLjMxNC02LjM5N2EuMjMyLjIzMiAwIDAgMC0uMzU1LS4yOTh6Ii8+PC9zdmc+");}
+
+
+@keyframes star-fly {
+  0% {
+    opacity: 0;
+    transform: rotate(20deg) translateX(10px) translateY(10px);
+  }
+  30% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: rotate(100deg) translateX(-10px) translateY(-10px);;
+  }
+}
+.message-2CShn3[class*="selected-"] .contents-2MsGLg::after {
+  content: "";
+  height: 10px;
+  width: 10px;
+  background-color: var(--brand-experiment);
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='36' viewBox='0 0 24 24' fill='currentColor' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-star'%3E%3Cpolygon points='12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2'/%3E%3C/svg%3E");
+  -webkit-mask-size: contain;
+  opacity: 0;
+  animation: star-fly 0.6s linear;
+}
+
+/* Original code from hadeanMachine and ArjixWasTaken */
+
+#app-mount .containerDefault-YUSmu3.selected-2TbFuo .content-1gYQeQ {
+  background: #b00b6925;
+  border: 2px solid #b00b69;
+}
+
+.icon-2W8DHg {
+  width: 15px;
+  height: 15px;
+}
+
+[aria-label="Channels"] [class^="content"],
+[class^="popout-"] [class^="row-"]
+{
+    border-style: solid;
+    border-width: 2px;  
+    border-color: transparent;
+    background-color: transparent;
+}
+
+[aria-label="Channels"] [class^="content"]:hover,
+[class^="popout-"] [class^="row-"]:hover
+{
+    border-color: #b00b69 !important;
+}
+
+.unread-36eUEm {
+  display: none;
+}
+
+.modeUnread-3Cxepe .icon-2W8DHg,
+#app-mount .containerDefault-YUSmu3.selected-2TbFuo .content-1gYQeQ .icon-2W8DHg,
+#app-mount .containerDefault-YUSmu3:hover .content-1gYQeQ .icon-2W8DHg
+{
+  color: #b00b69 !important;
+}
+
+@keyframes rolecircle {
+  0% { -webkit-mask-size: 0%; opacity: 0.6; }
+  100% { -webkit-mask-size: 700%; opacity: 0; }
+}
+.role-2TIOKu:hover .roleCircle-3TFUOr::before {
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='50%' cy='50%' r='10%' /%3E%3C/svg%3E");
+    background: inherit;
+    -webkit-mask-position: center;
+    -webkit-mask-repeat: no-repeat;
+    animation: rolecircle 2s infinite;
+}
+/* Stolen from BD and GracefulLion#9559 */
+.role-2TIOKu {
+  transform: translate(0);
+  overflow: hidden;
+  border: 0;
+
+  --transparency: .4;
+  border-radius: 5px;
+}
+.role-2TIOKu .roleRemoveIcon-387wKV {
+  margin: 0;
+  left: unset;
+  transform: translate(50%, -50%);
+}
+.role-2TIOKu .roleRemoveButton-17oXnT {
+  position: static;
+}
+.role-2TIOKu .roleCircle-3TFUOr:after {
+  content: '';
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: inherit;
+  opacity: var(--transparency);
+}
+
+.botTag-7aX5WZ:not(.botTagOP-3pUTXu) {
+    color: var(--brand-560);
+    background-color: var(--brand-260);
+    height: 0.9375rem;
+    padding: 0 0.275rem;
+    border-radius: 0.4rem;
+    margin-top: 0.25em;
+}
+.botTag-7aX5WZ.botTagCozy-3NTBvK:not(.botTagOP-3pUTXu) {
+    margin-left: 0.25rem;
+}
+
+/* transparent user popout (works great with colors) */
+[class^=userPopoutOverlayBackground] {
+  background: transparent;
+}
+
+/* glowing current speaker rings */
+.avatarSpeaking-2pCGrZ {
+  border: 2.5px solid rgb(44, 200, 106);
+  box-shadow: 0px 0px 6px rgb(0, 16, 3),  0px 0px 50px rgb(44, 200, 106),  0px 0px 6px rgba(0, 0, 0, 0.953);
+  border-radius: 16px;
+  margin-left: 6px;
+  margin-top: 1px;
+}
+
+path[d="M20 7H12L10.553 5.106C10.214 4.428 9.521 4 8.764 4H3C2.447 4 2 4.447 2 5V19C2 20.104 2.895 21 4 21H20C21.104 21 22 20.104 22 19V9C22 7.896 21.104 7 20 7Z"] {
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 2;
+    d: path("m6 14 1.45-2.9A2 2 0 0 1 9.24 10H20a2 2 0 0 1 1.94 2.5l-1.55 6a2 2 0 0 1-1.94 1.5H4a2 2 0 0 1-2-2V5c0-1.1.9-2 2-2h3.93a2 2 0 0 1 1.66.9l.82 1.2a2 2 0 0 0 1.66.9H18a2 2 0 0 1 2 2v2");
+}
+
+[class^="field"]:nth-child(n+3) > [class^="constrainedRow"] > div > div {
+    filter: blur(5px);
+    transition: filter 0.2s ease-in-out;
+}
+[class^="field"]:nth-child(n+3) > [class^="constrainedRow"] > div > div:hover {
+    filter: none;
+}
+[class*="formText"]:has(> [class*="phoneRevealer"]) {
+    display: none;
+}
+
+/* Makes messages slide into chat 
+Try changing the second value '0.6s' and fiddle around with it to change the speed*/
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+.message-2CShn3 {
+  animation: slide-up 0.6s ease;
+}
+
+/* remove login artwork */
+svg.artwork-L5TAwQ {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+/* Hide New Message Stuff When Unfocused */
+/* Red New Message Bar */
+html:not(.app-focused) [class^=.isUnread-] {
+    border-color: transparent;
+}
+[class^=.isUnread-] { 
+    transition: .15s;
+}
+/* New Message Bar */
+html:not(.app-focused) [class^=..newMessagesBar-] {
+    opacity: 0;
+}
+[class^=..newMessagesBar-] {
+    transition: .15s;
+}
+
+.vc-notification-root {
+  background-color: #248046 !important;
+}
+.vc-notification-close-btn {
+  color: white !important;
+}
+
+[class^=menu-],[class^=submenu-] {
+  background: none;
+}
+[class^=submenu-] {
+  margin: 0 -8px;
+}
+.theme-dark [class^=menu-]::after,.theme-dark [class^=submenu-]::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: 5px;
+  background: rgba(10, 10, 10, 0.7);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
+}
+.theme-light [class^=menu-]::after,.theme-light [class^=submenu-]::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: 5px;
+  background: rgba(245, 245, 245, 0.7);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
+}
+[class^=backdrop-] ~ .theme-light[class*=layer-]>[class^=menu-] {
+  background: rgba(245, 245, 245, 0.7);
+}
+[class^=backdrop-] ~ .theme-dark[class*=layer-]>[class^=menu-] {
+  background: rgba(10, 10, 10, 0.7);
+}
+[class^=backdrop-] ~ [class*=layer-]>[class^=menu-]::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  backdrop-filter: blur(10px);
+  border-radius: 5px;
+  box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.4);
+}
+.section-3FmfOT, .divider-1tWBgZ, .scroller-1jBQYo {
+  z-index: 2;
+}
+
+[class^="channelTextArea"]::before {
+    content: "";
+    width: 32px;
+    height: 32px;
+    bottom: calc(100% - 3px); /* Mess with the - 3px to change its vertical position */
+    right: 10px; /* Switch this from right to left to put it on the left side, or increase/decrease to change its position */
+    position: absolute;
+    image-rendering: pixelated;
+    background-image: url("https://raw.githubusercontent.com/adryd325/oneko.js/14bab15a755d0e35cd4ae19c931d96d306f99f42/oneko.gif");
+    animation: sleep 1s infinite; /* change 1s to make the animation slower/faster */
+}
+
+/* eat my dick (real) */
+[class*=wumpusTooltip] {
+    visibility: hidden;
+}
+
+[class*=wumpusTooltip]:after {
+    visibility: visible;
+}
+
+[class*=wumpusTooltip]:before {
+    content:'I\'m new to Discord, Eat Shit Loser';
+    visibility: visible;
+    display: inline-block;
+    background: var(--white-500);
+    color: var(--primary-dark-500);
+    width: max-content;
+    height: max-content;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    position: relative;
+    left: -6px;
+    bottom: -6.5px;
+    padding: 1px 6px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 3px;
+    margin-top: -12px;
+    margin-right: 8px;
+    -webkit-transition: opacity .11s linear .17s;
+    transition: opacity .11s linear .17s;
+}
+
+colorful right click - found it on github somewhere
+
+#message-actions-pin, #message-pin, #message-unpin{
+    color: skyblue;
+}
+#message-actions-pin:hover, #message-pin:hover, #message-unpin:hover {
+    background-color: #67a7c0;
+    color: #fff;
+}
+#message-actions-reply, #message-reply {
+    color: khaki;
+}
+#message-actions-reply:hover, #message-reply:hover {
+    background-color: #c5bb5d;
+    color: #fff;
+}
+#message-actions-thread, #message-thread {
+    color: #69c069;
+}
+#message-actions-thread:hover, #message-thread:hover {
+    background-color: #5dbd5d;
+    color: #fff;
+}
+#message-actions-mark-unread, #message-mark-unread {
+    color: plum;
+}
+#message-actions-mark-unread:hover, #message-mark-unread:hover {
+    background-color: #c27ec2;
+    color: #fff;
+}
+#message-actions-copy-link, #message-copy-link {
+    color: lightseagreen;
+}
+#message-actions-copy-link:hover, #message-copy-link:hover {
+    background-color: #199c96;
+    color: #fff;
+}
+#message-actions-tts, #message-tts{
+    color: var(--brand-experiment);
+}
+#message-actions-tts:hover, #message-tts:hover{
+    background-color: var(--brand-experiment);
+    color: #fff;
+}
+#message-actions-copy-id, #message-devmode-copy-id {
+    color: lightsalmon;
+}
+#message-actions-copy-id:hover #message-devmode-copy-id:hover{
+    background-color: lightsalmon;
+    color: #fff;
+}
+#message-edit, #message-actions-edit{
+    color: steelblue;
+}
+#message-edit:hover,  #message-actions-edit:hover{
+    background-color: steelblue;
+    color: #fff;
+}
+#message-add-reaction{
+    color: goldenrod;
+}
+#message-add-reaction:hover{
+    background-color: goldenrod;
+    color: #fff;
+}
+
+
