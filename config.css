@@ -16,6 +16,51 @@
 
 img[src$="3aa41de486fa12454c3761e8e223442e.png"],img[src$="8a88d63823d8a71cd5e390baa45efa02.png"],img[src$="011940fd013da3f7fb926e4a1cd2e618.png"]{content:url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZmlsbD0iI2ZiYjg0OCIgZD0ibTIxLjU5MSA1LjMxOC03Ljg3IDUuMTY2YS45MTQuOTE0IDAgMCAwLS4zMTYuMzU0bC0xLjIgMi40MDVhLjIyNC4yMjQgMCAwIDEtLjQxIDBsLTEuMi0yLjQwNWEuOTE0LjkxNCAwIDAgMC0uMzE3LS4zNTRsLTcuODctNS4xNjZhLjIzMi4yMzIgMCAwIDAtLjM1NC4yOThsMy4yODkgNi4zOTdhLjIzNi4yMzYgMCAwIDEtLjE4LjMzNUgzLjE4NWEuMjMuMjMgMCAwIDAtLjEzNy40MTdsOC44MTQgNi4zMTVhLjI0My4yNDMgMCAwIDAgLjI3NCAwbDguODE0LTYuMzE1YS4yMy4yMyAwIDAgMC0uMTM3LS40MTdoLTEuOTc2YS4yMzcuMjM3IDAgMCAxLS4yMDYtLjMzNWwzLjMxNC02LjM5N2EuMjMyLjIzMiAwIDAgMC0uMzU1LS4yOTh6Ii8+PC9zdmc+");}
 
+@import url(https://thenml.github.io/css-snippets/free-comet-react/src.css)
+
+/* Make pronouns stand out more */
+[class*=pronouns] {
+  color: var(--text-normal);
+  font-size: 12px; font-weight: 800;
+  background: #ffffff20;
+  padding: 0.10rem 0.5rem; margin: 0.25rem 0 0 0;
+  border-radius: 1rem;
+}
+
+.userPopoutOverlayBackground-3A0Pcz {
+  background-color: rgba(0, 0, 0, 0.352);
+  border-radius: 1rem!important;
+}
+
+.messageInputContainer-24qqTx {
+  border-radius: 1rem!important;
+}
+
+.messageInput-1enlaJ {
+  border-radius: 1rem!important;
+}
+
+.memberSinceContainer-2CBD23 {
+  padding-left: 2rem;
+}
+
+.eyebrow-1Shfyi {
+  padding-left: 0.5rem;
+text-transform: unset!important;
+background-color: #ffffff05;
+border-radius: 1rem;
+}
+
+@import url(https://seele1306.github.io/Snippets/OnekoDM/import.css);
+
+@import url(https://seele1306.github.io/Snippets/ChatBubbles/import.css);
+:root {
+    /* Solid color only, no transparency! */
+    --chat-bubble-default: gray;
+    --chat-bubble-replying: cyan;
+    --chat-bubble-mentioned: orange;
+    --chat-bubble-border-radius: 8px;
+}
 
 @keyframes star-fly {
   0% {
@@ -350,3 +395,5 @@ colorful right click - found it on github somewhere
     background-color: goldenrod;
     color: #fff;
 }
+
+@import url(//dablulite.github.io/css-snippets/AccountDetailsGrid/import.css);
